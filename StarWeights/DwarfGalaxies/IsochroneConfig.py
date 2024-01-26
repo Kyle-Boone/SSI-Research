@@ -114,3 +114,4 @@ for i in np.arange(numMagBins):
 countsFile = isoDir + 'Correction/StellarCounts.fits'
 OGBinsCountFile = isoDir + 'Correction/ObservedGalaxyCountBins.fits'
 TSBinsCountFile = isoDir + 'Correction/TrueStarCountBins.fits'
+CSBinsCountFile = isoDir + 'Correction/ClassifiedStarCountBins.fits'

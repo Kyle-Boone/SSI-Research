@@ -64,7 +64,7 @@ def getGalaxies(isochrone, deepFiles, measBalrFile, balrFile, writeFile, quality
     balrData = fits.open(balrFile)[1].data
     
     # This is the Balrog Object ID for all data, not just matches
-    FLAG_ID = measBalrData['bal_id']
+    FLAG_ID = balrData['bal_id']
 
     # These are the data values useful for cropping the data.
     FOREGROUND = balrData['flags_foreground']
